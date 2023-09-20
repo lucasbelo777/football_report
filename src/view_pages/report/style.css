@@ -1,0 +1,170 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    border-top: 5px solid #CED2DC;
+}
+
+.team-tittle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000000;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.section-divider {
+    border-top: 2px solid #CED2DC; /* Defina a cor e espessura da linha conforme desejado */
+    margin-bottom: 20px; /* Ajuste o espaço após a divisória conforme necessário */
+}
+
+.team-logo {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.team-name {
+    flex-grow: 1;
+    text-align: left;
+    font-size: 36px;
+    color: #000000;
+
+}
+
+.data-list li {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #000000;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Estilizando a seção de títulos */
+.section {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.section-title {
+    font-size: 23px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilizando a lista de títulos */
+.data-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.data-list li {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.data-list li:first-child {
+    margin-top: 15px; /* Ajuste o valor conforme necessário */
+}
+
+/* Estilizando as categorias de títulos */
+.data-list strong {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Estilizando os títulos individuais */
+.data-list ul {
+    list-style: disc;
+    margin-left: 20px;
+    padding-left: 10px;
+
+}
+
+.data-list ul li {
+    margin-bottom: 10px;
+    color: #444;
+    line-height: 1.5;
+
+}
+
+.divider {
+    border-top: 2px solid #ccc;
+    margin: 20px 0;
+}
+
+p {
+    color: #555;
+    font-size: 18px;
+
+}
+
+.highlight {
+    background-color: #CED2DC;
+    color: #000000;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.data-table th {
+    background-color: #CED2DC;
+    text-align: left;
+    padding: 8px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+
+.data-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #ECEFF8;
+}
+
+.data-table tr:nth-child(odd) {
+    background-color: #FAFCFF;
+}
+
+.data-table thead {
+    background-color: #333;
+    color: #000000;
+}
+
